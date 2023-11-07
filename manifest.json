@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "HPass",
+  "version": "0.1",
+
+  "description": "Bypass the paywall",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.haaretz.co.il/*",
+    "https://*.haaretz.com/*",
+    "https://*.themarker.com/*"
+  ],
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
